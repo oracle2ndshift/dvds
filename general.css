@@ -1,0 +1,132 @@
+/* colors */
+.darkbrown  {color:#663333}
+.red        {color:#8e0707}
+.beige      {color:#cdcb9c}
+.offwhite   {color:#efefef}
+.ltblue2    {color:#c2b8e5}
+.ltblue     {color:#deddc0}
+.darkgreen  {color:#003333}
+.royalbl    {color:#6e07ef}
+.gray2      {color:#deddc0}
+
+/*  general link style  */
+a:link    {color:#000000; text-decoration:none; font-family:Arial;}
+a:active  {color:#ffffff; text-decoration:none; font-family:Arial;}
+a:hover   {color:#ffffff; text-decoration:none; font-family:Arial;}
+a:visited {color:#000000; text-decoration:none; font-family:Arial;}
+
+/* list styles */
+ul        {list-style-type: square;}
+ol.oli    {list-style-type: lower-roman;}
+ol.ola    {list-style-type: lower-alpha;}
+ol.oln    {list-style-type: number;}
+
+body      {background:#efefef; font-family:arial; }
+
+/* division style */
+.maincss    {position:absolute; left:10px; top:5px; width:760px; 
+             z-index:1; background:#6e07ef; color:#ffffff; overflow:none;
+             visibility:visible; font-family:arial,helvetica;}
+
+.maincss em b {position:absolute; font-size:150px; font-family:arial;
+             color:#6e07ef; line-height:40px; font-weight:normal;}
+
+.logoimg   {width:200px; height:40px; }
+
+.menuque    {position:absolute; left:10px; top:85px; width:760px;
+             height:200px; z-index:2; visibility:visible; overflow:none;
+             background:#6e07ef; font-size:10px; font-family:arial;
+             color:white; }
+
+.menuque table { align:center; margin:0px; width:100%; padding:0px; 
+           border:1px solid white; width:100%; border-collapse:collapse;  }
+
+.td1        {width:100px; font-size:15px; } 
+.td2        {width:300px; font-size:12px; } 
+.td3        {width:100px; font-size:12px; } 
+.td4        {width:100px; font-size:12px; } 
+
+.menuins    {position:absolute; left:10px; top:120px; width:320px;
+             height:125px; z-index:3; visibility:visible; overflow:none;
+             background:#6e07ef; font-size:12px; font-family:arial;
+             color:white; }
+
+.menuupd    {position:absolute; left:340px; top:120px; width:320px;
+             height:125px; z-index:4; visibility:visible; overflow:none;
+             background:#6e07ef; font-size:12px; font-family:arial;
+             color:white; }
+
+.menudel    {position:absolute; left:670px; top:120px; width:100px;
+             height:125px; z-index:5; visibility:visible; overflow:none;
+             background:#6e07ef; font-size:12px; font-family:arial;
+             color:white; }
+
+.menudel td    {font-size:12px; color:white; }
+.menudel table {font-size:12px; color:white; }
+.menuupd td    {font-size:12px; color:white; }
+.menuupd table {font-size:12px; color:white; }
+.menuins td    {font-size:12px; color:white; }
+.menuins table {font-size:12px; color:white; }
+
+select {font-size:10px; color:black;}
+input  {font-size:10px; color:black;}
+
+.mainbody   {position:absolute; left:10px; top:245px; width:760px;
+             z-index:5; visibility:visible; overflow:auto;
+             background:#efefef; font-size:10px; font-family:arial;
+             color:#000000; }
+
+/* background:#6e07ef; */
+.mainbody object {left:10px; top:245px; width:750px; height:360px; 
+             font-size:10px; font-family:arial; color:#000000; }
+
+.objdiv   { left:10px; top:245px; width:720px; overflow:auto; 
+            background-color:#d5b3ff; 
+            font-size:10px; font-family:arial; color:#000000; }
+
+.objtab   { border:1px solid white; width:100%; align:center; padding:5px;
+            margin:0px;  }
+
+.objdiv th { background-color:#b5a7c6; text-align:left; margin:0px;
+           border:1px solid white;  padding:4px; font-size:14px;}
+
+.objdiv td { border:1px solid white;  padding:4px; font-size:12px; }
+
+.objdiv table { align:center; margin:0px; width:100%; 
+           border:1px solid white; width:100%; border-collapse:collapse;  }
+
+/* home page */
+.bodycss    {position:absolute; left:10px; top:75px; width:760px; 
+             font-size:12px; z-index:6; visibility:visible;
+             background:#deddc0; color:#000000; font-family:arial,helvetica;}
+
+.bodycss table {border:0px; padding:0px; margin-left:10px; margin-top:10px;
+             width:100%; height:100%; vertical-align:top; font-size:12px; }
+
+.bodycss td {border:1px #6e08ef solid; padding:4px; spacing:0px; 
+             background:#efefef; }
+
+.bodycss th {border:1px #6e08ef solid; padding:4px; spacing:0px;
+             background:#c2b8e5; color:#ffffff; }
+
+/* corners */
+#ctl, #cbl, #ctr, #cbr {position:absolute; width:20px; height:20px; 
+                        color:#6e07ef; background:#efefef; 
+                        overflow:hidden; font-style:normal; z-index:101;}
+
+#ctl   {top:0;      left:0;}
+#cbl   {bottom:0;   left:0;}
+#ctr   {top:0;      right:0;}
+#cbr   {bottom:0;   right:0;}
+#ctl b {left:-8px;  top:-2px;}
+#ctr b {left:-25px; top:-2px;}
+#cbl b {left:-8px;  top:-17px;}
+#cbr b {left:-25px; top:-17px;}
+
+.curvy      {position:absolute; left:10px; top:10px; height:150px;
+             width:650px; background:#6e07ef; color:#000; }
+.curvy em b {position:absolute; font-size:150px; font-family:arial; 
+             color:#6e07ef; line-height:40px; font-weight:normal;}
+.curvy p    {position:relative; z-index:100; padding:10px 15px; 
+             font-size:20px;}
+
